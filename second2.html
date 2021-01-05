@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+
+        <script type="text/javascript">
+            
+            /*function test1(){
+                alert(" Mouse Over the Header ")
+            }*/
+            function test1()
+            {
+                document.getElementById('iden').innerHTML="<h1>TEST1</h1>";
+            }
+            function test2()
+            {
+                document.getElementById('iden').innerHTML="<h1> test2</h1>";
+
+            }
+
+
+        </script>
+    </head>
+    <body>
+        <h1 onmouseover="test1()">Welcome</h1>
+        <h1 onmouseleave="test2()">Vanakam</h1>
+        <div id="iden"></div>
+    </body>
+</html>
